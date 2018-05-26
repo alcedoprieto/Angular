@@ -1,3 +1,12 @@
-<p>
-  cuerpo works!
-</p>
+<div class="mt-5">
+  <h2>Servicio</h2>
+  <p></p>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of equipo">
+      <h5><strong>Nombre:</strong> {{item.Nombre}}</h5>
+      <h5><strong>Especialidad</strong>{{item.Especialidad}}</h5>
+      <h6><a href="#">Leer más...</a></h6>
+    </li>
+  </ul>
+</div>
+
